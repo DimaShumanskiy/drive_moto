@@ -3,7 +3,7 @@ import Search from './components/Search/Search.js';
 
 function App() {
   return (
-    <div className="App">
+    <div class="container">  
       <Search />
     </div>
   );
