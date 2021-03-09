@@ -1,3 +1,29 @@
-.header__logo {
-  height: 76px;
+.header-bottom {
+  width: 1171px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-bottom__list {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  background-color: #E5E5E5;  
+}
+
+.header-bottom__list-item {
+  margin-right: 60px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #2F3035;
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+
+.header-bottom__list-item:last-child {
+  margin-right: 0;
 }
