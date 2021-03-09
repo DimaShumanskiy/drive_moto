@@ -3,11 +3,10 @@ import './Address.css'
 
 function Address() {
   return (
-    <>
-      <img className="location" src={location} alt="location" />
-      <p>Москва,  ул. Науки  25</p>
-    </>
-
+    <div className="header__address">
+      <img className="header__location-img" src={location} alt="location" />
+      <p className="header__location">Москва,  ул. Науки  25</p>
+    </div>
   );
 }
 
