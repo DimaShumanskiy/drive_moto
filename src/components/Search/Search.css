@@ -1,0 +1,13 @@
+.search-input-text{
+    width: 100%;
+}
+.input-search{
+    width: auto;
+    height: 50px;
+}
+.search-button{
+    color: #fff;
+    background-color:#1C62CD;
+    width: 145px;
+    height: 50px;
+}
