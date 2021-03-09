@@ -1,14 +1,14 @@
-import Nav from './Nav.css';
+import './Nav.css';
 
-function Nav() {
+function Nav () {
   return (
-    <div className="header__nav">
+    <nav className="header__nav">
       <ul className="header__list">
         <li className="header__list-item">Магазины</li>
         <li className="header__list-item">Акции</li>
         <li className="header__list-item">Доставка и оплата</li>
       </ul>
-    </div>
+    </nav>
   );
 }
 

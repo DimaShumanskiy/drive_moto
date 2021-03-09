@@ -1,6 +1,6 @@
 import HeaderBottom from './header-bottom/HeaderBottom';
 import HeaderTop from './header-top/HeaderTop';
-import './Header.css';
+import './header.css';
 
 function Header() {
   return (

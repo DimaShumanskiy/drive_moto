@@ -1,8 +1,7 @@
 import Logo from './logo/Logo';
-import Addres from './addres/Addres';
-import './nav/Nav';
 import Nav from './nav/Nav';
-import SocialLink from './social-link/SocialLink';
+import SocialLinks from './social-links/SocialLinks';
+import Address from './address/Address';
 
 function HeaderTop() {
   return (
@@ -10,8 +9,8 @@ function HeaderTop() {
       <div className="header-top">
         <Nav />
         <Logo />
-        <Addres />
-        <SocialLink />
+        <Address />
+        <SocialLinks />
       </div>
     </>
   );
