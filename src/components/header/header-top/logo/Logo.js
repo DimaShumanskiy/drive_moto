@@ -3,7 +3,10 @@ import './Logo.css';
 
 function Logo() {
   return (
-    <img className="header__logo" src={logo} alt="logo" />
+    <div className="header__logo">
+      <img className="header__logo-img" src={logo} alt="logo" />
+    </div>
+    
   );
 }
 

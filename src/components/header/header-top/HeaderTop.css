@@ -1,6 +1,12 @@
-.header-top {
-    padding: 0;
+.header__top {
+    padding: 25px 0;
     margin: 0;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+.header__top-right {
+    display: flex;
+    align-items: center;
 }

@@ -10,8 +10,10 @@ function HeaderTop() {
       <div className="header__top">
         <Nav />
         <Logo />
-        <Address />
-        <SocialLinks />
+        <div className="header__top-right"> 
+          <Address />
+          <SocialLinks />
+        </div>
       </div>
     </>
   );
