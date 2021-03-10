@@ -1,8 +1,13 @@
+.search{
+    margin-bottom: 80px;
+}
 .search-input-text{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .input-search{
-    width: auto;
+    flex: 1 2 300px;
     height: 50px;
 }
 .search-button{
@@ -10,4 +15,7 @@
     background-color:#1C62CD;
     width: 145px;
     height: 50px;
+}
+.type-search{
+    margin-bottom: 25px;
 }

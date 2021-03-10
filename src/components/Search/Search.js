@@ -2,9 +2,12 @@ import "./Search.css";
 import RadioButton from "./RadioButton.js";
 import Input from "../Input/Input.js"
 import Button from "../Button/Button.js";
+
+
+
 function Search(){
     return(
-        <div className="search">
+        <div className="search container">
             <div className="type-search">
                 {/* наверное можно было обайтись без компонентов_radiobutton, но пускай будет. тут я изучал Propsы */}
                 <RadioButton id="radio-1" value="1" text="Поиск по номеру"/>
