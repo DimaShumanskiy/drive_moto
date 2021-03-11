@@ -1,3 +1,2 @@
-import './Catalog.css';
 
 

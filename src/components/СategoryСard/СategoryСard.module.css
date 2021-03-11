@@ -1,12 +1,12 @@
-.category-card{
+.categoryCard{
     width: 370px;
     height: 130px;
     border: 1px dotted rgb(56, 56, 236);
     display: flex; 
 }
 
-.category-card div,
-.category-card img{
+.categoryCard div,
+.categoryCard img{
     flex-grow: 1;  
 }
 

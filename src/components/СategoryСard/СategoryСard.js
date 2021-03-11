@@ -1,8 +1,8 @@
-import "./СategoryСard.css";
+import s from "./СategoryСard.module.css";
 
 function CategoryCard(props){
     return(
-        <div className="category-card">
+        <div className={s.categoryCard}>
             <div>
                 <h3>{props.title}</h3>
                 <a href={props.categoryLink}>Подробнее</a>
