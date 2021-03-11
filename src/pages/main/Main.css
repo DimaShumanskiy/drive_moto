@@ -17,4 +17,7 @@
 
 .categories{
     border: 1px dotted #1C62CD;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 80px;
 }

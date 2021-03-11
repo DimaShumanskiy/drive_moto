@@ -1,0 +1,13 @@
+.category-card{
+    width: 370px;
+    height: 130px;
+    border: 1px dotted rgb(56, 56, 236);
+    display: flex; 
+}
+
+.category-card div,
+.category-card img{
+    flex-grow: 1;  
+}
+
+
