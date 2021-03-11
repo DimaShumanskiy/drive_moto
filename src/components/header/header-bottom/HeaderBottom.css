@@ -1,0 +1,21 @@
+.header-bottom {
+  background-color: #E5E5E5; 
+  max-width: 1171px; 
+}
+
+.header-bottom__list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.header-bottom__list-item {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2F3035;
+  padding-top: 15px;
+  padding-bottom: 14px;
+}

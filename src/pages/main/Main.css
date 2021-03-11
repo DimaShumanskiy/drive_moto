@@ -1,0 +1,23 @@
+.ad{
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 0;
+}
+.slider{
+    border: 1px dotted #1C62CD;
+    height: 400px;
+    flex: 2 1 300px;
+}
+.baner{
+    border: 1px dotted #1C62CD;
+    width: 265px;
+    margin-left: 20px;
+}
+
+
+.categories{
+    border: 1px dotted #1C62CD;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,25 @@
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+
+
+.header__list-item {
+    list-style: none;
+    padding-right: 50px;
+    
+}
+
+.header__list-item:last-child {
+    padding-right: 0;
+    
+}
