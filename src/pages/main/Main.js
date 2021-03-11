@@ -22,11 +22,11 @@ function Main(){
 
             <section className="categories container">
                 <CategoryCard title="Квадроциклы" src={imageCategoryATV} categoryLink={'#'}/>
-                <CategoryCard title="Квадроциклы" src={imageCategoryJetski} categoryLink={'#'}/>
-                <CategoryCard title="Квадроциклы" src={imageCategoryBoat} categoryLink={'#'}/>
-                <CategoryCard title="Квадроциклы" src={imageCategorySnowmobile} categoryLink={'#'}/>
-                <CategoryCard title="Квадроциклы" src={imageCategoryAllterrainvehicle} categoryLink={'#'}/>
-                <CategoryCard title="Квадроциклы" src={imageCategoryEngine} categoryLink={'#'}/>
+                <CategoryCard title="Гидроциклы" src={imageCategoryJetski} categoryLink={'#'}/>
+                <CategoryCard title="Катера" src={imageCategoryBoat} categoryLink={'#'}/>
+                <CategoryCard title="Снегоходы" src={imageCategorySnowmobile} categoryLink={'#'}/>
+                <CategoryCard title="Вездеходы" src={imageCategoryAllterrainvehicle} categoryLink={'#'}/>
+                <CategoryCard title="Двигатели" src={imageCategoryEngine} categoryLink={'#'}/>
             </section>
         </div>
     )
